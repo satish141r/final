@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#">Next Shala</a>
+
+        <div id="MenuIcon">
+            <span><i class="fa-solid fa-circle-arrow-down" id="icon"></i></span>
+        </div>
+
+    </nav>
+    <!-- sideMenu -->
+    <div class="wrapper">
+
+        <div class="sideMenu" id="SideMenu">
+
+            <ul>
+                <li><a href="#" class="dash"><i class="fa-solid fa-house"></i>Dashboard</a></li>
+                <li class="list" onclick="toggleDropdown('dropdown1','fa1')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Configure Hostel Details<i class="fa-solid fa-arrow-left "
+                            id="fa1"></i></a>
+                    <div class="dropdown-class" id="dropdown1">
+                        <ul>
+                            <a href="index2.html">No of Branches</a>
+                            <a href="index3.html ">No of Blocks</a>
+                            <a href="index4.html">No of Floors</a>
+                            <a href="index5.html">No of Rooms</a>
+                            <a href="index6.html">No of Beds</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown2','fa2')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Academic Details<i class="fa-solid fa-arrow-left "
+                            id="fa2"></i></a>
+                    <div class="dropdown-class" id="dropdown2">
+                        <ul>
+                            <a href="">Add Academic Year</a>
+                            <a href="">Add Course</a>
+                            <a href="">Add Sem/Class</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown3','fa3')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Fees
+                        Management <i class="fa-solid fa-arrow-left " id="fa3"></i></a>
+                    <div class="dropdown-class" id="dropdown3">
+                        <ul>
+                            <a href="">Add Fees</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown4','fa4')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Admission Process<i class="fa-solid fa-arrow-left "
+                            id="fa4"></i></a>
+                    <div class="dropdown-class" id="dropdown4">
+                        <ul>
+                            <a href="newAdmission.html">New Admission</a>
+                            <a href="">Challan Collection</a>
+                            <a href="">Room Selection</a>
+                            <a href="">Reports</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown5','fa5')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Room
+                        Allocation<i class="fa-solid fa-arrow-left " id="fa5"></i></a>
+                    <div class="dropdown-class" id="dropdown5">
+                        <ul>
+                            <a href="">A</a>
+                            <a href="">B</a>
+                            <a href="">B</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown6','fa6')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Daily
+                        Attendance <i class="fa-solid fa-arrow-left " id="fa6"></i></a>
+                    <div class="dropdown-class" id="dropdown6">
+                        <ul>
+                            <a href="">Add Attendance</a>
+                            <a href="">Attendance View</a>
+                            <a href="">B</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown7','fa7')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Daily
+                        Out and In Management<i class="fa-solid fa-arrow-left " id="fa7"></i></a>
+                    <div class="dropdown-class" id="dropdown7">
+                        <ul>
+                            <a href="">Add Attendence</a>
+                            <a href="">Attendence View</a>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown8','fa8')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Leave
+                        Application <i class="fa-solid fa-arrow-left " id="fa8"></i></a>
+                    <div class="dropdown-class" id="dropdown8">
+                        <ul>
+                            <a href="">Requests</a>
+                            <a href="">Reports</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown9','fa9')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Mess
+                        Management<i class="fa-solid fa-arrow-left " id="fa9"></i></a>
+                    <div class="dropdown-class" id="dropdown9">
+                        <ul>
+                            <a href="">Mess Attendance</a>
+                            <a href="">Add Individual Mess Bill</a>
+                            <a href="">Bulk Payment</a>
+                            <a href="">Payment Bills</a>
+                            <a href="">Reports</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown10','fa10')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Visitor management <i class="fa-solid fa-arrow-left "
+                            id="fa10"></i></a>
+                    <div class="dropdown-class" id="dropdown10">
+                        <ul>
+                            <a href="">Add Visitor</a>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown11','fa11')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Staff
+                        Management <i class="fa-solid fa-arrow-left " id="fa11"></i></a>
+                    <div class="dropdown-class" id="dropdown11">
+                        <ul>
+                            <a href="staff.html">Add Staff</a>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown12','fa12')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Staff
+                        Salary Management<i class="fa-solid fa-arrow-left " id="fa12"></i></a>
+                    <div class="dropdown-class" id="dropdown12">
+                        <ul>
+                            <a href="">Add Staff Salary</a>
+                            <a href="">Reports</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown13','fa13')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Daily
+                        Expenses Management<i class="fa-solid fa-arrow-left " id="fa13"></i></a>
+                    <div class="dropdown-class" id="dropdown13">
+                        <ul>
+                            <a href="">A</a>
+                            <a href="">B</a>
+                            <a href="">B</a>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list" onclick="toggleDropdown('dropdown14','fa14')"><a href="#"><i
+                            class="fa-solid fa-book"></i>Cash
+                        Book<i class="fa-solid fa-arrow-left " id="fa14"></i></a>
+                    <div class="dropdown-class" id="dropdown14">
+                        <ul>
+                            <a href="">A</a>
+                            <a href="">B</a>
+                            <a href="">B</a>
+                        </ul>
+                    </div>
+                </li>
+                <ul>
+        </div>
+
+    </div>
+
+
+    <!-- the content body starts from here -->
+    <div class="container">
+        <form action="#">
+            <div class="text">
+                Add Student
+            </div>
+           
+            <div class="form-row">
+
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label for="">Staff Name</label>
+                </div>
+                <div class="input-data">
+                    <select class="form-control" id="inputState">
+                        <option value="Gender">Gender</option>
+                        <option value="Gender">Male</option>
+                        <option value="Gender">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="number" required>
+                    <div class="underline"></div>
+                    <label for="">Staff DOB</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label for="">Address</label>
+                </div>
+                <div class="input-data">
+                    <input type="number" required>
+                    <div class="underline"></div>
+                    <label for="">Adhar Number</label>
+                </div>
+                <div class="input-data">
+                    <input type="number" required>
+                    <div class="underline"></div>
+                    <label for="">Adhar Number</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label for="">Staff Role</label>
+                </div>
+                
+
+            </div>
+           
+
+
+        </form>
+    </div>
+
+    <script src="index2.js"></script>
+</body>
+
+</html>
